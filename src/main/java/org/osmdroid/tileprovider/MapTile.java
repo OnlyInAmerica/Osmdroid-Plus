@@ -37,6 +37,14 @@ public class MapTile {
 	public int getY() {
 		return y;
 	}
+	
+	public int getY(boolean isSourceTMS) {
+		return isSourceTMS ? getY_TMS() : getY();
+	}
+		
+	public int getY_TMS() {
+		return (int)(Math.pow(2, zoomLevel) - y - 1);
+	}
 
 	@Override
 	public String toString() {

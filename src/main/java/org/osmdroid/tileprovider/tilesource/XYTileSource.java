@@ -14,7 +14,8 @@ public class XYTileSource extends OnlineTileSourceBase {
 
 	@Override
 	public String getTileURLString(final MapTile aTile) {
-		return getBaseUrl() + aTile.getZoomLevel() + "/" + aTile.getX() + "/" + aTile.getY()
-				+ mImageFilenameEnding;
+		return getBaseUrl() + aTile.getZoomLevel() + "/" + aTile.getX() + "/" + aTile.getY(isSourceTMS)
+ 				+ mImageFilenameEnding;
+
 	}
 }
