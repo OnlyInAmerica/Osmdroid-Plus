@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events
+END
+MapEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/MapEvent.java
+END
+ScrollEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/ScrollEvent.java
+END
+MapListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/MapListener.java
+END
+ZoomEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/ZoomEvent.java
+END
+DelayedMapListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/DelayedMapListener.java
+END
+MapAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/events/MapAdapter.java
+END

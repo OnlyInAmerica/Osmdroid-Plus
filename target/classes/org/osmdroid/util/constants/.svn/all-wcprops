@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/util/constants
+END
+GeoConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/util/constants/GeoConstants.java
+END
+UtilConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/util/constants/UtilConstants.java
+END

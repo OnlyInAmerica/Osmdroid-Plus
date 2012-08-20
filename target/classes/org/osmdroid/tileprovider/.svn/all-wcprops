@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1090/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider
+END
+MapTileCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTileCache.java
+END
+MapTileProviderBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1084/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTileProviderBase.java
+END
+LRUMapTileCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/LRUMapTileCache.java
+END
+IRegisterReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/IRegisterReceiver.java
+END
+MapTileProviderArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTileProviderArray.java
+END
+MapTileRequestState.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTileRequestState.java
+END
+MapTileProviderBasic.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTileProviderBasic.java
+END
+ExpirableBitmapDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/ExpirableBitmapDrawable.java
+END
+MapTile.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/MapTile.java
+END
+IMapTileProviderCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/IMapTileProviderCallback.java
+END

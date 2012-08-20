@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/views/util
+END
+MyMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/views/util/MyMath.java
+END
+PathProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/views/util/PathProjection.java
+END
+Mercator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/views/util/Mercator.java
+END

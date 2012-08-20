@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1081/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource
+END
+XYTileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/XYTileSource.java
+END
+TileSourceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1081/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/TileSourceFactory.java
+END
+BitmapTileSourceBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/BitmapTileSourceBase.java
+END
+ITileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/ITileSource.java
+END
+QuadTreeTileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/QuadTreeTileSource.java
+END
+CloudmadeTileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/CloudmadeTileSource.java
+END
+IStyledTileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/IStyledTileSource.java
+END
+OnlineTileSourceBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1045/trunk/osmdroid-android/src/main/java/org/osmdroid/tileprovider/tilesource/OnlineTileSourceBase.java
+END

@@ -1,0 +1,9 @@
+K 13
+svn:mergeinfo
+V 318
+/branches/issue-43-jar/osmdroid-android/tests/org:194-224
+/branches/issue-43-no-service/osmdroid-android/tests/org:175-192
+/branches/issue-81-renderer-as-interface/osmdroid-android/tests/org:328-353
+/branches/maven/osmdroid-android/src/test/java/org:1036-1044
+/branches/release_3_0_4/osmdroid-android/tests/org:929-931
+END
