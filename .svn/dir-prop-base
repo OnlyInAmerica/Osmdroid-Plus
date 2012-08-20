@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 79
+.gitignore
+.settings
+MANIFEST.MF
+bin
+osmdroid-*.jar
+osmdroid-*.zip
+target
+docs
+
+END
