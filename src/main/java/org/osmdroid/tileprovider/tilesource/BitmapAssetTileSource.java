@@ -15,11 +15,11 @@ import org.slf4j.LoggerFactory;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 
-public abstract class BitmapTileSourceBase implements ITileSource,
-		OpenStreetMapTileProviderConstants {
+public class BitmapAssetTileSource extends BitmapTileSourceBase {
 
-	private static final Logger logger = LoggerFactory.getLogger(BitmapTileSourceBase.class);
+	private static final Logger logger = LoggerFactory.getLogger(BitmapAssetTileSource.class);
 
 	private static int globalOrdinal = 0;
 
@@ -40,21 +40,22 @@ public abstract class BitmapTileSourceBase implements ITileSource,
  	 * Set true to use TMS tiles, false is default.
 	 */
 	public boolean isSourceTMS = false;
-
+	
 	private final int mTileSizePixels;
 
 	private final string mResourceId;
 
-	public BitmapTileSourceBase(final String aName, final string aResourceId,
+	public BitmapAssetTileSource(final String aName, final string aResourceId,
 			final int aZoomMinLevel, final int aZoomMaxLevel, final int aTileSizePixels,
 			final String aImageFilenameEnding) {
-		mResourceId = aResourceId;
+		super(aName, aResourceId, aZoomMinLevel, aZoomMaxLevel, aTileSizePixels, aImageFilenameEnding);
 		mOrdinal = globalOrdinal++;
 		mName = aName;
 		mMinimumZoomLevel = aZoomMinLevel;
 		mMaximumZoomLevel = aZoomMaxLevel;
-		mTileSizePixels = aTileSizePixels;
 		mImageFilenameEnding = aImageFilenameEnding;
+		mTileSizePixels = aTileSizePixels;
+		mResourceId = aResourceId;
 	}
 
 	@Override
@@ -129,11 +130,12 @@ public abstract class BitmapTileSourceBase implements ITileSource,
 		sb.append('/');
 		sb.append(tile.getY(isSourceTMS));
 		sb.append(imageFilenameEnding());
+		//Log.d("BitmapAssetTileSource-nonTMScoord",String.valueOf(tile.getY(false)));
 		return sb.toString();
 	}
 
 	@Override
-	public Drawable getDrawable(final InputStream aFileInputStream) throws LowMemoryException, org.osmdroid.tileprovider.tilesource.BitmapAssetTileSource.LowMemoryException {
+	public Drawable getDrawable(final InputStream aFileInputStream) throws LowMemoryException {
 		try {
 			// default implementation will load the file as a bitmap and create
 			// a BitmapDrawable from it

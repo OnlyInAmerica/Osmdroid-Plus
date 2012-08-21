@@ -53,6 +53,13 @@ public class BoundingBoxE6 implements Parcelable, Serializable, MapViewConstants
 		this.mLatSouthE6 = (int) (south * 1E6);
 		this.mLonWestE6 = (int) (west * 1E6);
 	}
+	
+	public BoundingBoxE6(GeoPoint NorthEast, GeoPoint SouthWest) {
+		this.mLatNorthE6 = NorthEast.getLatitudeE6();
+		this.mLonEastE6 = NorthEast.getLongitudeE6();
+		this.mLatSouthE6 = SouthWest.getLatitudeE6();
+		this.mLonWestE6 = SouthWest.getLongitudeE6();
+	}
 
 	// ===========================================================
 	// Getter & Setter

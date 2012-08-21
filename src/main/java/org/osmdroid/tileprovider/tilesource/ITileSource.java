@@ -59,8 +59,9 @@ public interface ITileSource {
 	 * @param aTileInputStream
 	 *            an InputStream
 	 * @return the rendered Drawable
+	 * @throws org.osmdroid.tileprovider.tilesource.BitmapAssetTileSource.LowMemoryException 
 	 */
-	Drawable getDrawable(InputStream aTileInputStream) throws LowMemoryException;
+	Drawable getDrawable(InputStream aTileInputStream) throws LowMemoryException, org.osmdroid.tileprovider.tilesource.BitmapAssetTileSource.LowMemoryException;
 
 	/**
 	 * Get the minimum zoom level this tile source can provide.

@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import android.content.res.AssetManager;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 
 /**
  * Implements a file system cache and provides cached tiles. This functions as a tile provider by
@@ -155,15 +156,22 @@ public class MapTileAssetProvider extends MapTileModuleProviderBase {
 			// Check the tile source to see if its file is available and if so, then render the
 			// drawable and return the tile
 			try {
-				assets.open("dog");
+				//Drawable temp = mTileSource.getDrawable(
+				//		assets.open(TILE_ASSETS_BASE_PATH +"/" + mTileSource.getTileRelativeFilenameString(tile)));
+				//Log.d("MapTileAssetProvider","success! opened " + TILE_ASSETS_BASE_PATH +"/" + mTileSource.getTileRelativeFilenameString(tile));
+				//return temp;
 				return mTileSource.getDrawable(
-						assets.open(TILE_ASSETS_BASE_PATH + mTileSource.getTileRelativeFilenameString(tile)));
+								assets.open(TILE_ASSETS_BASE_PATH +"/" + mTileSource.getTileRelativeFilenameString(tile)));
 				
 			} catch (IOException e1) {
 				// If the tile does not exist, return null
+				//Log.d("MapTileAssetProvider","cannot open " + TILE_ASSETS_BASE_PATH +"/" + mTileSource.getTileRelativeFilenameString(tile));
 				e1.printStackTrace();
 				return null;
 			} catch (LowMemoryException e) {
+				e.printStackTrace();
+				throw new CantContinueException(e);
+			} catch (org.osmdroid.tileprovider.tilesource.BitmapAssetTileSource.LowMemoryException e) {
 				e.printStackTrace();
 				throw new CantContinueException(e);
 			}
