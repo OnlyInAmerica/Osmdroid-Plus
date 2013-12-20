@@ -50,9 +50,18 @@ The official osmdroid trunk only supports specifying bounding boxes given four p
 	
 	BoundingBoxE6 mapBounds = new BoundingBoxE6(northEast, southWest);
 
-##Configuration
+##Building
 
-###1. Link project to android.jar
+These instructions walk through building this project with Eclipse.
+
+###1. Import Project with Eclipse 
+
+####In Eclipse: 
+
+    File -> Import -> General -> Existing Projects into Workspace -> Select root directory (Osmdroid-Plus)
+
+###2. Link project to android.jar
+
 The osmdroid team have this project linked to android.jar through an environemnt variable. To fix android libraries not resolving do the following:
 ####In Eclipse:
 	R-click project -> Properties -> Java Build Path -> Libraries (Tab) -> Add Variable -> Configure Variables -> New
@@ -61,12 +70,10 @@ In the dialog add a variable with Name, Path as below:
 **Name**: ANDROID_SDK_PLATFORM
 
 **Path**: path to android.jar. i.e: `/path/to/android-sdk-macosx/platforms/android-16/android.jar`
-###2. Add external libraries to build path
-####In Eclipse:
-	R-click project -> Properties -> Java Build Path -> Libraries (Tab)
 
-	Add JARs -> ./libs/apache-mime4j-0.4.jar
-	Add JARs -> ./libs/httpmime-4.0-beta1.jar
-	Add JARs -> ./libs/slf4j-android-1.5.8.jar
-	Add Library -> JUnit -> JUnit 4
+##Referencing from an Android Application Project
+With both your Android Application Project and this Osmdroid-Plus project opened in a single Eclipse workspace.
 
+###1. Add Osmdroid-Plus to your Android project's build path
+
+   R-click Android project -> Properties -> Java Build Path -> Projects (Tab) -> Add... -> Select Osmdroid-Plus -> OK
